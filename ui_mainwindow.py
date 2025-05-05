@@ -1163,7 +1163,7 @@ class Ui_MainWindow(object):
     # setupUi
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"WdB Glyph Extractor", None))
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"FAnG", None))
         self.labelSetupDescription.setText(QCoreApplication.translate("MainWindow",
                                                                       u"<html><head/><body><p><span style=\" font-size:10pt; font-weight:700;\">(1) Setup Docker </span></p><p><span style=\" font-size:10pt;\">Please install Docker on your system. This can be either done using:</span></p><p><span style=\" font-size:10pt;\">i. (recommended) Docker Desktop: </span><a href=\"https://docs.docker.com/desktop/install/windows-install/\"><span style=\" text-decoration: underline; color:#0000ff;\">Install Docker Desktop on Windows</span></a></p><p><span style=\" font-size:10pt;\">ii. Server and client binaries: </span><a href=\"https://docs.docker.com/engine/install/binaries/\"><span style=\" text-decoration: underline; color:#0000ff;\">Install server and client binaries on Windows</span></a></p></body></html>",
                                                                       None))

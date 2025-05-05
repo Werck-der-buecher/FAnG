@@ -551,7 +551,7 @@ class ViewEditWidget(QWidget):
         self.timed_progress = QProgressDialog("Operation in progress...", None, 0, 0, self)
         self.timed_progress.setWindowModality(Qt.WindowModality.WindowModal)
         self.timed_progress.setWindowFlags(Qt.WindowType.Window | Qt.WindowType.WindowTitleHint | Qt.WindowType.CustomizeWindowHint)
-        self.timed_progress.setWindowTitle("WdB Glyph Extractor")
+        self.timed_progress.setWindowTitle("FAnG")
         self.timed_progress.setValue(0)
         self.timed_progress.setMinimumDuration(200)
 
@@ -764,7 +764,7 @@ class ViewEditWidget(QWidget):
         self.timed_progress = QProgressDialog("Operation in progress...", None, 0, 0, self)
         self.timed_progress.setWindowModality(Qt.WindowModality.WindowModal)
         self.timed_progress.setWindowFlags(Qt.WindowType.Window | Qt.WindowType.WindowTitleHint | Qt.WindowType.CustomizeWindowHint)
-        self.timed_progress.setWindowTitle("WdB Glyph Extractor")
+        self.timed_progress.setWindowTitle("FAnG")
         self.timed_progress.setValue(0)
         self.timed_progress.setMinimumDuration(200)
 
