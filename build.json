@@ -1,0 +1,105 @@
+{
+ "version": "auto-py-to-exe-configuration_v1",
+ "pyinstallerOptions": [
+  {
+   "optionDest": "noconfirm",
+   "value": true
+  },
+  {
+   "optionDest": "filenames",
+   "value": "D:/20_PostDoc/WP1_Classification/GlyphExtractorApp/main.py"
+  },
+  {
+   "optionDest": "onefile",
+   "value": false
+  },
+  {
+   "optionDest": "console",
+   "value": false
+  },
+  {
+   "optionDest": "icon_file",
+   "value": "D:/20_PostDoc/WP1_Classification/GlyphExtractorApp/app.ico"
+  },
+  {
+   "optionDest": "name",
+   "value": "WdB Glyph Extractor"
+  },
+  {
+   "optionDest": "clean_build",
+   "value": true
+  },
+  {
+   "optionDest": "strip",
+   "value": false
+  },
+  {
+   "optionDest": "noupx",
+   "value": false
+  },
+  {
+   "optionDest": "disable_windowed_traceback",
+   "value": false
+  },
+  {
+   "optionDest": "uac_admin",
+   "value": false
+  },
+  {
+   "optionDest": "uac_uiaccess",
+   "value": false
+  },
+  {
+   "optionDest": "argv_emulation",
+   "value": false
+  },
+  {
+   "optionDest": "bootloader_ignore_signals",
+   "value": false
+  },
+  {
+   "optionDest": "upx_exclude",
+   "value": "qsqlite.dll"
+  },
+  {
+   "optionDest": "upx_exclude",
+   "value": "qsqlodbc.dll"
+  },
+  {
+   "optionDest": "upx_exclude",
+   "value": "qsqlpsql.dll"
+  },
+  {
+   "optionDest": "datas",
+   "value": "D:\\20_PostDoc\\30_OCRD\\models_wdbapp;models/"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "skimage"
+  },
+  {
+   "optionDest": "collect_submodules",
+   "value": "skimage"
+  },
+  {
+   "optionDest": "collect_data",
+   "value": "skimage"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "sklearn.metrics._pairwise_distances_reduction._datasets_pair"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "sklearn.metrics._pairwise_distances_reduction._middle_term_computer"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "sklearn.metrics._pairwise_distances_reduction"
+  }
+ ],
+ "nonPyinstallerOptions": {
+  "increaseRecursionLimit": true,
+  "manualArguments": ""
+ }
+}
